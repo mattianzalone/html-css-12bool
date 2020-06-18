@@ -1,0 +1,41 @@
+.bg-none {
+    background-color: lightgrey;
+    border: none;
+}
+
+.row {
+    padding: 30px 0;
+}
+
+.row.titolo{
+    padding-top: 30px;
+}
+
+.titolo h1{
+    font-size: 40px;
+    color:rgb(5, 55, 105);
+}
+
+.card h2{
+    font-size: 30px;
+    color: rgb(5, 55, 105);
+}
+
+.card img{
+    width: 40%;
+    margin: 15px 5px 5px;
+    float: left;
+    object-fit: cover;
+    object-position: right;
+}
+
+.card p{
+    margin: 15px 15px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 767px) {
+    .card{
+        float: none;
+    }
+}
